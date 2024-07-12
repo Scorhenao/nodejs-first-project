@@ -1,0 +1,61 @@
+{}
+{   "POST":[
+    {
+    "title": "Nombre de la tarea",
+    "description": "Descripción de la tarea"
+},
+{
+    "message": "Tarea creada exitosamente",
+    "task": {
+        "id": 1,
+        "title": "Nombre de la tarea",
+        "description": "Descripción de la tarea"
+        }
+    }
+],//POST /tasks
+
+"GET":[
+    {
+        "id": 1,
+        "title": "Nombre de la tarea",
+        "description": "Descripción de la tarea"
+    }
+    
+],//GET /tasks
+
+"GET": [
+        {
+            {
+                "id": 1,
+                "title": "Nombre de la tarea",
+                "description": "Descripción de la tarea"
+            }
+        }
+    ],//GET /tasks/:id
+
+
+"PUT": [
+    {
+        {
+            "title": "Nuevo nombre de la tarea",
+            "description": "Nueva descripción de la tarea"
+        },
+        {
+            "message": "Tarea actualizada exitosamente",
+            "task": {
+                "id": 1,
+                "title": "Nuevo nombre de la tarea",
+                "description": "Nueva descripción de la tarea"
+            }
+        }
+    }
+]// PUT /tasks/:id
+}
+
+"DELETE":[
+    {
+        {
+            "message": "Tarea eliminada exitosamente"
+        }
+    }
+]// DELETE /tasks/:id

@@ -1,0 +1,34 @@
+{   "POST":[
+        {
+        "title": "Nombre de la tarea",
+        "description": "Descripción de la tarea"
+    },
+    {
+        "message": "Tarea creada exitosamente",
+        "task": {
+            "id": 1,
+            "title": "Nombre de la tarea",
+            "description": "Descripción de la tarea"
+        }
+        }
+    ],//POST /tasks
+    
+    "GET":[
+        {
+          "id": 1,
+          "title": "Nombre de la tarea",
+          "description": "Descripción de la tarea"
+        },
+        
+      ]//GET /tasks
+
+    "GET": [
+        {
+            {
+                "id": 1,
+                "title": "Nombre de la tarea",
+                "description": "Descripción de la tarea"
+              }
+        }
+    ]
+}
